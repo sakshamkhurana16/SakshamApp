@@ -1,8 +1,7 @@
-package com.example.sakshamapp
+package com.example.sakshamapp.activities
 
 import android.content.Intent
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import android.widget.EditText
 import android.widget.TextView
@@ -10,7 +9,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.sakshamapp.activities.DashboardActivity
+import com.example.sakshamapp.R
 import com.example.sakshamapp.api.ApiService
 import com.example.sakshamapp.dataclasses.LoginRequest
 import com.example.sakshamapp.dataclasses.LoginResponse
