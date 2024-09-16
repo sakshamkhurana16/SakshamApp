@@ -81,7 +81,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
     <TextView
-        android:id="@+id/textview8"
+        android:id="@+id/tvError"
         android:layout_width="0dp"
         android:layout_marginTop="5dp"
         android:layout_height="wrap_content"
@@ -99,6 +99,7 @@
         android:backgroundTint="#23d6af"
         android:paddingVertical="20dp"
         android:text="Sign In!"
+        android:id="@+id/tvLogin"
         android:textColor="@color/white"
         android:gravity="center"
         android:textStyle="bold"
